@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="ru.qupol.closeAll" version="1.0.5" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Enable everything</name>
-    <description>Игра суть которой заключается в том, что бы нажать на все кнопки за отведенное время</description>
+<widget id="ru.qupol.closeAll" version="1.1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Включи все</name>
+    <description>Игра суть которой заключается в том, что бы включить на все кнопки за отведенное время</description>
     <author email="K_P_I@bk.ru">Pavel Kuleshov</author>
     <content src="www/index.html" />
     <icon src="icon.png" />

@@ -21,9 +21,16 @@
     app.initialize();
 </script>
 
-<div id="midle">
-    <p>Включи все кнопки за отведенное время.</p>
-    <p id="timer"></p>
+<div id="menu" onclick="showGame()">
+    <p>Задача игры включить все кнопки за отведенное время.</p>
+    <p>С каждым уровнем кнопок становится все больше.<br />Сколько уровней пройдешь ТЫ?</p>
+    <br />
+<button id="startButton">Начать</button>
+</div>
+
+<div id="midle" hidden="hidden">
+
+   <div id="status"> <p id="timer"></p></div>
 </div>
 
 </body>

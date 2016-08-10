@@ -12,10 +12,10 @@ body {
     width: 90px;
     height: 67px;
     font-weight: bold;
-    text-shadow: 0 1px 0 #528009;
+    box-shadow: 2px 3px #528009 inset;
 }
 
-#tab{
+#tab {
     width: 100%;
     height: 100%;
     position: fixed;
@@ -26,7 +26,6 @@ body {
     justify-content: center;
     overflow: auto;
 }
-
 
 #midle button {
     height: 45px;
@@ -69,10 +68,75 @@ body {
     box-shadow: 0 3px rgb(182, 73, 66) inset;
 }
 
-
 button,
 button:active,
 button:focus {
     outline: none;
 }
 
+/*startButton*/
+#startButton {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: .5em 2em;
+    outline: none;
+    border-width: 2px 0;
+    border-style: solid none;
+    border-color: #FDBE33 #000 #D77206;
+    border-radius: 6px;
+    background: linear-gradient(#F3AE0F, #E38916) #E38916;
+    transition: 0.2s;
+    margin-left: 100px;
+
+}
+
+#startButton:hover {
+    background: linear-gradient(#f5ae00, #f59500) #f5ae00;
+}
+
+#startButton:active {
+    background: linear-gradient(#f59500, #f5ae00) #f59500;
+}
+
+/*text*/
+#menu p {
+    color: #3c3d40;
+    font-size: 16px;
+    font-family: «Libre Baskerville», serif;
+    font-weight: bold;
+    line-height: 25px;
+    text-align: center;
+    text-shadow: 0 1px 1px #fff;
+    padding-top: 15px;
+}
+
+#status {
+    /*width: 80%;*/
+    border-radius: 10px 10px;
+    -moz-border-radius: 10px 10px;
+    -webkit-border-radius: 10px 10px;
+    padding: 15px 20px 15px 80px;
+    margin: 0;
+    -webkit-box-shadow: 2px 2px 3px #999;
+    -moz-box-shadow: 2px 2px 3px #999;
+    /*IE min-height hack*/
+    min-height:20px;
+    height:20px;
+    overflow:visible;
+
+    position:relative;
+    bottom:6px;
+    right: 6px;
+    border: 1px solid #999999;
+    /*Set the position of the background image*/
+    background-position: 20px 50%;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-color: #FFC;
+
+}
+#status p{
+    color: #3c3d40;
+    font-family: «Libre Baskerville», serif;
+}

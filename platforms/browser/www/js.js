@@ -9,10 +9,11 @@ var acc = false;//quest accept, fix
 var loses = 0;//current losses, fix
 var ll = 3;//count losses to completely lose
 var q = "%u041F%u043E%u043F%u0440%u043E%u0431%u043E%u0432%u0430%u0442%u044C%20%u0435%u0449%u0435%20%u0440%u0430%u0437%3F";
-
+var timerText = 'Времени осталось:';
+var timeType = ' сек.'
 
 $(document).ready(function () {
-    increaseLevel();
+    // increaseLevel();
 });
 
 function updateElementsCount() {
@@ -20,7 +21,7 @@ function updateElementsCount() {
 }
 
 function updateLevelTime() {
-    levelTime = (levelSec + Math.round(level*1.5)) * 1000;
+    levelTime = (levelSec+level) * 1000;//(levelSec + Math.round(level*1.5))
 }
 
 function increaseLevel() {
@@ -81,7 +82,8 @@ function createTimer(level) {
     interval = setInterval(function () {
         val -= delay;
         var timerValue = Math.round(val / 1000);
-        $("#timer").text(timerValue);
+        var timeText = timerText+timerValue+timeType;
+        $("#timer").text(timeText);
         if (timerValue == 0) {
             clearInterval(interval);
             if (loses >= ll) {
@@ -141,3 +143,10 @@ function dialog(text) {
 
 }
 
+function showGame(){
+    $("#menu").slideUp(400,function (){
+        $("#midle").show();
+        setTimeout(increaseLevel,300);
+
+    });
+}
