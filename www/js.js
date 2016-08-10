@@ -2,7 +2,7 @@
 var level = 1;
 var elementsCount = level;
 var gamePosition = "#midle";
-var levelSec = 5;//10
+var levelSec = 2;//fixed sec per level
 var levelTime;//calculated
 var interval;//fix
 var acc = false;//quest accept, fix
@@ -20,7 +20,7 @@ function updateElementsCount() {
 }
 
 function updateLevelTime() {
-    levelTime = (levelSec + level) * 1000;
+    levelTime = (levelSec + Math.round(level*1.5)) * 1000;
 }
 
 function increaseLevel() {

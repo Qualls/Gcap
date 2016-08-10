@@ -2,8 +2,7 @@
 var level = 1;
 var elementsCount = level;
 var gamePosition = "#midle";
-var timerId = "#timer";
-var levelSec = 5;//10
+var levelSec = 2;//fixed sec per level
 var levelTime;//calculated
 var interval;//fix
 var acc = false;//quest accept, fix
@@ -21,7 +20,7 @@ function updateElementsCount() {
 }
 
 function updateLevelTime() {
-    levelTime = (levelSec + level) * 1000;
+    levelTime = (levelSec + Math.round(level*1.5)) * 1000;
 }
 
 function increaseLevel() {
@@ -82,7 +81,7 @@ function createTimer(level) {
     interval = setInterval(function () {
         val -= delay;
         var timerValue = Math.round(val / 1000);
-        $(timerId).text(timerValue);
+        $("#timer").text(timerValue);
         if (timerValue == 0) {
             clearInterval(interval);
             if (loses >= ll) {
