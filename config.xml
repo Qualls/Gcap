@@ -2,10 +2,10 @@
         xmlns:gap="http://phonegap.com/ns/1.0"
         id="ru.qupol.closeAll"
         version="1.0.3">
-    <name>Включи все</name>
+    <name>Enable everything</name>
     <description>Игра суть которой заключается в том, что бы нажать на все кнопки за отведенное время</description>
     <author email="K_P_I@bk.ru">Pavel Kuleshov</author>
-    <content src="index.html"/>
+    <content src="www/index.html"/>
     <preference name="DisallowOverscroll" value="true"/>
     <preference name="android-minSdkVersion" value="14"/>
     <!--<plugin name="cordova-plugin-battery-status" source="npm" spec="~1.1.1"/>-->
