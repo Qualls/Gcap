@@ -1,10 +1,10 @@
 <widget xmlns="http://www.w3.org/ns/widgets"
         xmlns:gap="http://phonegap.com/ns/1.0"
         id="ru.qupol.closeAll"
-        version="1.1.1">
+        version="1.1.2">
     <name>Включи все</name>
     <description>Игра суть которой заключается в том, что бы включить на все кнопки за отведенное время</description>
-    <author email="K_P_I@bk.ru">Pavel Kuleshov I</author>
+    <author email="K_P_I@bk.ru">PavelKuleshovI</author>
     <content src="www/index.html"/>
     <preference name="DisallowOverscroll" value="true"/>
     <preference name="android-minSdkVersion" value="14"/>
