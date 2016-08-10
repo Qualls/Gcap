@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="ru.qupol.closeAll" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Закрой все</name>
+<widget id="ru.qupol.closeAll" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Включи все</name>
     <description>Игра суть которой заключается в том, что бы нажать на все кнопки за отведенное время</description>
-    <author email="K_P_I@bk.ru" href="http://phonegap.com">Pavel Kuleshov</author>
+    <author email="K_P_I@bk.ru">Pavel Kuleshov</author>
     <content src="index.html" />
     <icon src="icon.png" />
     <access origin="*" />
