@@ -1,7 +1,7 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="ru.qupol.closeAll" version="1.0.0">
-  <name>Gcap</name>
-  <description>Hello World sample application that responds to the deviceready event.</description>
-  <author href="http://phonegap.com" email="support@phonegap.com">PhoneGap Team</author>
+  <name>Закрой все</name>
+  <description>Игра суть которой заключается в том, что бы нажать на все кнопки за отведенное время</description>
+  <author href="http://phonegap.com" email="K_P_I@bk.ru">Pavel Kuleshov</author>
   <content src="index.html"/>
   <preference name="DisallowOverscroll" value="true"/>
   <preference name="android-minSdkVersion" value="14"/>
@@ -97,7 +97,7 @@
     <splash src="www/res/screen/windows/SplashScreenPhone.scale-240.png" platform="windows" width="1152" height="1920"/>
   </platform>
   <access origin="*"/>
-  <allow-intent href="http://*/*"/>
+  <!--<allow-intent href="http://*/*"/>-->
   <!--<allow-intent href="https://*/*"/>-->
   <!--<allow-intent href="tel:*"/>-->
   <!--<allow-intent href="sms:*"/>-->
