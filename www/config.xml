@@ -4,7 +4,7 @@
 <widget xmlns="http://www.w3.org/ns/widgets"
         xmlns:gap="http://phonegap.com/ns/1.0"
         id="ru.qupol.closeAll"
-        version="1.0.4">
+        version="1.0.5">
 
     <name>Включи все</name>
     <description>Игра суть которой заключается в том, что бы нажать на все кнопки за отведенное время</description>
