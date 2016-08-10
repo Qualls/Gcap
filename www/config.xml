@@ -9,7 +9,7 @@
     <name>Включи все</name>
     <description>Игра суть которой заключается в том, что бы включить на все кнопки за отведенное время</description>
 
-    <author email="K_P_I@bk.ru">PavelKuleshovI</author>
+    <author email="K_P_I@bk.ru">PKI</author>
 
     <!-- Define the main entry-point to the application -->
     <content src="index.html" />
